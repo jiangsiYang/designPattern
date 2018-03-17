@@ -1,0 +1,7 @@
+为PersonBean创建动态代理
+步骤一：
+创建两个InvocationHandler,当代理的方法被调用时，代理就会把这个调用转发给InvocationHandler,但是这并不是通过调用InvocationHandler的相应方法做到的。
+步骤二：
+写代码创建动态代理
+步骤三：
+利用适当的代理包装任何PersonBean对象
